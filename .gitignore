@@ -1,0 +1,19 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+/.env
+/.env.example
+
+# Local debug output and logs
+/debug.txt
+*.log
+/README.md
+
+# Runtime data
+/storage/cache/*
+/storage/logs/*
+/storage/sessions/*
+
+# User-uploaded files
+/public/uploads/profile-pictures/*

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+main,
+main .row > *,
+main .card,
+main .card-body,
+.min-w-0,
+.min-width-0 {
+    min-width: 0;
+}
+
+main .table-responsive {
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+}
+
+main td,
+main th,
+main .text-break {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 767.98px) {
+    main .d-flex.justify-content-between {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    main .d-flex.gap-2 {
+        flex-wrap: wrap;
+    }
+
+    main .btn {
+        max-width: 100%;
+        white-space: normal;
+    }
+
+    main .container.py-5,
+    main .container-fluid.py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    main .container-fluid {
+        --bs-gutter-x: 1rem;
+    }
+
+    main .card-body:not(.p-0) {
+        padding: 1rem;
+    }
+
+    main h1,
+    main h2 {
+        overflow-wrap: anywhere;
+    }
+}
