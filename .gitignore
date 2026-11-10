@@ -17,3 +17,5 @@
 
 # User-uploaded files
 /public/uploads/profile-pictures/*
+
+vendor/
